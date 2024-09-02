@@ -48,9 +48,9 @@
  
  8 Quanti sono gli insegnanti senza un numero di telefono
 
- SELECT *
+ SELECT COUNT('phone) AS Insegnanti_senza_telefono
  FROM `teachers`
- WHERE `phone` <> 'null';
+ WHERE `phone` <> ' ';
 
 
  GROUP BY
